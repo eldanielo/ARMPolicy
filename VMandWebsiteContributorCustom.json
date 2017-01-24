@@ -1,0 +1,21 @@
+{
+  "Name": "HakRole2",
+  "Id": "cadb4a5a-4e7a-47be-84db-05cad13b6769",
+  "IsCustom": true,
+  "Description": "Can monitor and restart virtual machines.",
+  "Actions": [
+    "*/read",
+    "Microsoft.Storage/*",
+    "Microsoft.Network/*",
+    "Microsoft.Compute/*",
+    "Microsoft.Web/*",
+        "Microsoft.Insights/*",
+        "Microsoft.Resources/subscriptions/resourceGroups/*",
+        "Microsoft.Resources/deployments/*"
+        
+  ],
+  "NotActions": [],
+  "AssignableScopes": [
+    "/subscriptions/da510069-8d2d-4f80-87de-82ae17649c8f"
+  ]
+}
